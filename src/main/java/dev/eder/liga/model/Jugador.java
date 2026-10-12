@@ -33,7 +33,7 @@ public class Jugador {
     private String nombre;
     
     @Column(nullable = false, length = 80)
-    private String apllidos;
+    private String apellidos;
 
     @Column(nullable = false, length = 20)
     private String posicion;
