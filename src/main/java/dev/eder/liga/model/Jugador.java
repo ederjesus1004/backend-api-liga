@@ -30,7 +30,7 @@ public class Jugador {
     private String dni;
     
     @Column(nullable = false, length = 80)
-    private String nombre;
+    private String nombres;
     
     @Column(nullable = false, length = 80)
     private String apellidos;
