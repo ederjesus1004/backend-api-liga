@@ -9,7 +9,7 @@ import dev.eder.liga.model.Jugador;
 public interface JugadorRepository extends JpaRepository<Jugador,Long>{
 
     boolean existsByDni(String dni);
-    boolean existsByDniAndIdNot(String nombre);
+    boolean existsByDniAndIdNot(String dni, Long id);
 
     // NUEVO: buscan por el id del equipo
     List<Jugador> findByEquipoId(Long equipoId); // los jugadores de un equipo
