@@ -1,4 +1,4 @@
-package dev.eder.liga;
+package dev.eder.liga.dto;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
